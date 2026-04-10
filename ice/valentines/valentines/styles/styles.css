@@ -1,0 +1,86 @@
+/*
+Author: Smith
+Class: WDD 130
+Date: 11 Feb 2026
+
+Citations: 
+[0]
+[1] VS Code
+*/
+
+body {
+    background-color: rgb(246, 4, 64);
+    color: #ECECEC;
+    font-family: 'Arial', sans-serif;
+}
+
+/* wrapper
+*/
+#wrapper {
+    color: #549AEE;
+}
+
+/* header */
+
+header {
+    color: red;
+    background-color: pink;
+}
+
+/* nav */
+
+nav {
+    color: red;
+}
+
+ul {
+    columns: 4;
+    column-gap: 40px;
+}
+
+li{
+    list-style: none;
+    margin: 0 10px
+}
+
+/* ? */
+
+/*********************
+        main
+**********************/
+
+main {
+    background-color: maroon;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+h1 {
+    color: pink;
+    grid-column: 1/4;
+    text-align: center;
+}
+
+img {
+    width: 60%;
+    grid-column: 1/4;
+    margin: 0 auto;
+    display: block;
+}
+
+section {
+    background-color: brown;
+    color: rgb(255, 192, 203);
+    margin: 3%;
+    padding: 5%;
+    border: 1%;
+    text-align: left;
+}
+
+section h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: pink;
+}

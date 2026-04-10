@@ -1,0 +1,45 @@
+/* make sure to comment which section a piece is going to affect in the CSS*/
+
+body {
+    background-color: #FFECD7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #FFFFFE;
+    font-family: "Helvetica";
+}
+
+#sub-title {
+    color: #91E4FB;
+    font-family: "Helvetica";
+}
+
+.card {
+    color: #008DB1;
+    border: 6px #004E63;
+    border-radius: 30px;
+    width: 350px;
+    padding: 24px 20px 28px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+ul {
+    color: #FFFFFE;
+    font-family: "Helvetica";
+}
+
+.quote {
+    color: #FFD783;
+    font-family: "Brush Script MT", "Nanum Brush Script";
+}
+
+
+
